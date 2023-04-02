@@ -5,6 +5,7 @@
 --secondary-text-color-theme-light: #434455; 
 --primary-text-color-theme-dark: #ffffff;
 --secondary-text-color-theme-dark: #f4f4fd;
+--background-color-dark: #2e2f42;
 --accent-color: #4d5ae5;
 --main-hover-color: #404bbf;
 }
@@ -48,11 +49,11 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: var(--primary-text-color-theme-light);
+    color: var(--accent-color);
 }
 
 .logo-part-header {
-    color: #4d5ae5;
+    color: var(--primary-text-color-theme-light);
 }
 
 .email-link {
@@ -96,7 +97,7 @@ body {
     
     color: var(--primary-text-color-theme-dark);
 
-    background: var(--primary-text-color-theme-light);
+    background: var(--background-color-dark);
 }
 .order-btn {
     font-weight: 500;
@@ -140,6 +141,10 @@ body {
     color: var(--primary-text-color-theme-light);
 }
 
+.our-team {
+    background: var(--secondary-text-color-theme-dark);
+}
+
 .worker-name {
     font-weight: 500;
     font-size: 20px;
@@ -157,7 +162,30 @@ body {
     color: var(--secondary-text-color-theme-light);
 }
 
-.logo-footer {
+.page-footer {
+    background: var(--background-color-dark);
 }
+
+.logo-footer {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--accent-color);
+}
+
+.logo-part-footer {
+    color: var(--secondary-text-color-theme-dark);
+}
+
 .page-footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+    color: var(--secondary-text-color-theme-dark);
 }
